@@ -1,0 +1,302 @@
+[
+  {
+    "id": 101,
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "price": 799,
+    "stock": 50,
+    "description": "2.4 GHz wireless mouse",
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=82",
+    "tag": "A DESK FAVOURITE"
+  },
+  {
+    "id": 102,
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 2499,
+    "stock": 30,
+    "description": "Backlit mechanical keyboard",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=82",
+    "tag": "WELL MADE"
+  },
+  {
+    "id": 103,
+    "name": "USB-C Hub",
+    "category": "Electronics",
+    "price": 1299,
+    "stock": 40,
+    "description": "6-in-1 USB-C hub",
+    "image": "https://images.unsplash.com/photo-1625842268584-8f3296236761?auto=format&fit=crop&w=800&q=82",
+    "tag": ""
+  },
+  {
+    "id": 104,
+    "name": "Bluetooth Headphones",
+    "category": "Electronics",
+    "price": 1999,
+    "stock": 25,
+    "description": "Over-ear wireless headphones",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=82",
+    "tag": "GOOD SOUND"
+  },
+  {
+    "id": 105,
+    "name": "Cotton T-Shirt",
+    "category": "Clothing",
+    "price": 499,
+    "stock": 100,
+    "description": "Round neck cotton t-shirt",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=82",
+    "tag": "EASY EVERYDAY"
+  },
+  {
+    "id": 106,
+    "name": "Denim Jeans",
+    "category": "Clothing",
+    "price": 1499,
+    "stock": 60,
+    "description": "Slim fit denim jeans",
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=800&q=82",
+    "tag": ""
+  },
+  {
+    "id": 107,
+    "name": "Running Shoes",
+    "category": "Clothing",
+    "price": 2999,
+    "stock": 35,
+    "description": "Lightweight running shoes",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=82",
+    "tag": "ON THE MOVE"
+  },
+  {
+    "id": 108,
+    "name": "Steel Water Bottle",
+    "category": "Home & Kitchen",
+    "price": 599,
+    "stock": 80,
+    "description": "1 litre insulated bottle",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=800&q=82",
+    "tag": "DAILY ESSENTIAL"
+  },
+  {
+    "id": 109,
+    "name": "Non-stick Pan",
+    "category": "Home & Kitchen",
+    "price": 899,
+    "stock": 45,
+    "description": "24 cm non-stick frying pan",
+    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=82",
+    "tag": ""
+  },
+  {
+    "id": 110,
+    "name": "Fiction Paperback",
+    "category": "Books",
+    "price": 349,
+    "stock": 120,
+    "description": "A bestselling novel",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=800&q=82",
+    "tag": "A GOOD READ"
+  },
+  {
+    "id": 111,
+    "name": "Yoga Mat",
+    "category": "Sports & Fitness",
+    "price": 999,
+    "stock": 0,
+    "description": "6 mm anti-slip yoga mat",
+    "image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?auto=format&fit=crop&w=800&q=82",
+    "tag": "OUT OF STOCK"
+  },
+  {
+    "id": 112,
+    "name": "The Alchemist",
+    "category": "Books",
+    "price": 399,
+    "stock": 75,
+    "description": "A much-loved paperback novel",
+    "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=800&q=82",
+    "tag": "READER FAVOURITE"
+  },
+  {
+    "id": 113,
+    "name": "Ikigai",
+    "category": "Books",
+    "price": 349,
+    "stock": 60,
+    "description": "A thoughtful guide to finding purpose",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=82",
+    "tag": "GOOD READ"
+  },
+  {
+    "id": 114,
+    "name": "The Hobbit",
+    "category": "Books",
+    "price": 499,
+    "stock": 40,
+    "description": "Fantasy adventure paperback",
+    "image": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=800&q=82",
+    "tag": "CLASSIC"
+  },
+  {
+    "id": 115,
+    "name": "Badminton Racquet",
+    "category": "Sports & Fitness",
+    "price": 899,
+    "stock": 24,
+    "description": "Lightweight racquet for casual play",
+    "image": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=800&q=82",
+    "tag": "COURT READY"
+  },
+  {
+    "id": 116,
+    "name": "Shuttlecock Set",
+    "category": "Sports & Fitness",
+    "price": 349,
+    "stock": 55,
+    "description": "Pack of six practice shuttlecocks",
+    "image": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=800&q=82",
+    "tag": "SET OF 6"
+  },
+  {
+    "id": 117,
+    "name": "Cricket Tennis Balls",
+    "category": "Sports & Fitness",
+    "price": 299,
+    "stock": 70,
+    "description": "Pack of three practice cricket balls",
+    "image": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=800&q=82",
+    "tag": "PRACTICE SET"
+  },
+  {
+    "id": 118,
+    "name": "Cricket Bat",
+    "category": "Sports & Fitness",
+    "price": 1499,
+    "stock": 18,
+    "description": "Willow practice bat for weekend games",
+    "image": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=800&q=82",
+    "tag": "GAME ON"
+  },
+  {
+    "id": 119,
+    "name": "Training Football",
+    "category": "Sports & Fitness",
+    "price": 799,
+    "stock": 28,
+    "description": "Durable ball for training and play",
+    "image": "https://images.unsplash.com/photo-1614632537423-1e6c2e7e0d7a?auto=format&fit=crop&w=800&q=82",
+    "tag": "GET MOVING"
+  },
+  {
+    "id": 120,
+    "name": "Kids Floral Dress",
+    "category": "Kids Fashion",
+    "price": 899,
+    "stock": 22,
+    "description": "Soft cotton floral dress for children",
+    "image": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=800&q=82",
+    "tag": "KIDS FAVOURITE"
+  },
+  {
+    "id": 121,
+    "name": "Kids Kurta Set",
+    "category": "Kids Fashion",
+    "price": 799,
+    "stock": 16,
+    "description": "Comfortable cotton kurta and pajama set",
+    "image": "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=800&q=82",
+    "tag": "FESTIVE PICK"
+  },
+  {
+    "id": 122,
+    "name": "Kids T-Shirt Set",
+    "category": "Kids Fashion",
+    "price": 599,
+    "stock": 30,
+    "description": "Two-piece everyday cotton outfit",
+    "image": "https://images.unsplash.com/photo-1503919005314-30d93d07d823?auto=format&fit=crop&w=800&q=82",
+    "tag": "EASY EVERYDAY"
+  },
+  {
+    "id": 123,
+    "name": "Wooden Building Blocks",
+    "category": "Toys",
+    "price": 699,
+    "stock": 32,
+    "description": "Colourful wooden blocks for creative play",
+    "image": "https://images.unsplash.com/photo-1599623560574-39d485900c95?auto=format&fit=crop&w=800&q=82",
+    "tag": "PLAY & LEARN"
+  },
+  {
+    "id": 124,
+    "name": "Plush Teddy Bear",
+    "category": "Toys",
+    "price": 499,
+    "stock": 26,
+    "description": "Soft cuddly teddy bear",
+    "image": "https://images.unsplash.com/photo-1559454403-b8fb88521f11?auto=format&fit=crop&w=800&q=82",
+    "tag": "SOFT & CUDDLY"
+  },
+  {
+    "id": 125,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 1299,
+    "stock": 15,
+    "description": "Rechargeable remote control toy car",
+    "image": "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?auto=format&fit=crop&w=800&q=82",
+    "tag": "READY TO RACE"
+  },
+  {
+    "id": 126,
+    "name": "Jigsaw Puzzle Set",
+    "category": "Toys",
+    "price": 399,
+    "stock": 35,
+    "description": "A colourful 100-piece family puzzle",
+    "image": "https://images.unsplash.com/photo-1606503153255-59d8b8b82155?auto=format&fit=crop&w=800&q=82",
+    "tag": "FAMILY FUN"
+  },
+  {
+    "id": 127,
+    "name": "Electric Kettle",
+    "category": "Home & Kitchen",
+    "price": 1299,
+    "stock": 20,
+    "description": "1.5 litre stainless steel kettle",
+    "image": "https://images.unsplash.com/photo-1594213114663-d94db9b171e5?auto=format&fit=crop&w=800&q=82",
+    "tag": "KITCHEN ESSENTIAL"
+  },
+  {
+    "id": 128,
+    "name": "Glass Storage Set",
+    "category": "Home & Kitchen",
+    "price": 699,
+    "stock": 34,
+    "description": "Set of three glass food containers",
+    "image": "https://images.unsplash.com/photo-1603199506016-b9a594b593c0?auto=format&fit=crop&w=800&q=82",
+    "tag": "SET OF 3"
+  },
+  {
+    "id": 129,
+    "name": "Cookware Set",
+    "category": "Home & Kitchen",
+    "price": 1899,
+    "stock": 12,
+    "description": "Three-piece everyday cookware set",
+    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=82",
+    "tag": "COOK EVERYDAY"
+  },
+  {
+    "id": 130,
+    "name": "Kitchen Knife Set",
+    "category": "Home & Kitchen",
+    "price": 599,
+    "stock": 27,
+    "description": "Three-piece stainless steel knife set",
+    "image": "https://images.unsplash.com/photo-1593618998160-e34014e67546?auto=format&fit=crop&w=800&q=82",
+    "tag": "KITCHEN TOOL"
+  }
+]

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f8f7f4" />
+  <title>Nuvora — Shop everyday favourites</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">Big savings on everyday favourites <span>—</span> <strong>shop the latest finds</strong></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Nuvora home"><span class="brand-mark">N</span> Nuvora<span class="brand-dot">+</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="#shop">Shop</a><a href="#shop" data-category-link="Clothing">Fashion</a><a href="#shop" data-category-link="Electronics">Electronics</a><a href="#shop" data-category-link="Home & Kitchen">Home</a><a href="#shop" data-category-link="Books">Books</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn search-toggle" aria-label="Focus search" title="Search"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.6"></circle><path d="m16 16 4.5 4.5"></path></svg></button>
+      <button class="login-btn account-btn" data-open-account id="accountButton">Login</button>
+      <button class="orders-header-btn" data-open-orders>My Orders</button>
+      <button class="bag-btn" id="openCart" aria-label="Open shopping bag">Bag <span id="bagCount">0</span></button>
+      <button class="menu-toggle icon-btn" id="menuToggle" aria-label="Open menu"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button>
+    </div>
+  </header>
+  <main id="top">
+    <section class="hero" aria-label="Welcome">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> THE BIG EVERYDAY SALE</div>
+        <h1>Good finds.<br><em>Better days.</em></h1>
+        <p>Explore electronics, fashion, home and more. Thoughtful gifts. Things you’ll reach for every day.</p>
+        <a class="primary-link" href="#shop">Shop now <span>↗</span></a>
+        <div class="hero-note"><span class="sparkle">✳</span><span>Great finds for<br>that make a day.</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-image"></div><div class="hero-stamp"><span>GOOD<br>THINGS</span><b>✳</b><span>LIVE<br>HERE</span></div>
+        <div class="hero-caption"><span>TOP PICKS FOR YOU</span><span>Discover something new today</span></div>
+      </div>
+      <div class="hero-side">CURATED FOR YOUR EVERYDAY <span>✳</span></div>
+    </section>
+    <section class="trust-strip"><div><span>✳</span> Thoughtfully picked</div><i></i><div><span>↗</span> Easy, everyday prices</div><i></i><div><span>♡</span> Made to make you smile</div></section>
+    <section class="shop-section" id="shop">
+      <div class="section-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> GREAT PICKS, GREAT PRICES</div><h2>Deals of the <em>day.</em></h2></div><a class="text-link" href="#products">View all <span>↗</span></a></div>
+      <div class="shop-tools">
+        <div class="categories" id="categories" aria-label="Filter by category"></div>
+        <label class="search-box"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.6"></circle><path d="m16 16 4.5 4.5"></path></svg><input id="searchInput" type="search" placeholder="Search products" aria-label="Search products"></label>
+      </div>
+      <div class="result-line"><span id="resultCount">11 good finds</span><label>Sort by <select id="sortSelect"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="name">Name A–Z</option></select></label></div>
+      <div class="product-grid" id="products"></div>
+      <div class="empty-state" id="emptyState" hidden><span>✳</span><h3>No good finds just yet</h3><p>Try another search or category.</p><button class="outline-btn" id="clearFilters">See everything</button></div>
+    </section>
+    <section class="story" id="story"><div class="story-image"></div><div class="story-copy"><div class="eyebrow"><span class="eyebrow-line"></span> SHOP WITH CONFIDENCE</div><h2>More choice.<br><em>More to love.</em></h2><p>We believe the best things don’t need to be complicated. Just useful, well made, and the kind of thing that makes you think, “I’m glad I got that.”</p><a class="text-link" href="#shop">A little more about us <span>↗</span></a><span class="story-doodle">✳</span></div></section>
+    <section class="newsletter"><div><div class="eyebrow"><span class="eyebrow-line"></span> DEALS AND UPDATES</div><h2>Offers worth opening. <em>inbox.</em></h2><p>Hear about new arrivals and fresh offers first.</p></div><form id="newsletterForm"><label class="sr-only" for="emailInput">Email address</label><input id="emailInput" type="email" placeholder="Your email address" required><button type="submit">Count me in <span>↗</span></button><small id="newsletterNote">No noise. Just the good stuff.</small></form></section>
+  </main>
+  <footer><a class="brand" href="#top"><span class="brand-mark">N</span> Nuvora<span class="brand-dot">+</span></a><p>Little things for a lovelier everyday.</p><span>© 2026 Nuvora Marketplace</span></footer>
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag" aria-hidden="true"><div class="drawer-head"><div><span class="eyebrow">YOUR GOOD FINDS</span><h2>Your bag <span id="drawerCount">(0)</span></h2></div><button class="close-btn" id="closeCart" aria-label="Close bag">×</button></div><div class="shipping-progress"><div class="shipping-message" id="shippingMessage">You’re ₹1,499 away from free delivery</div><div class="progress-track"><span id="shippingProgress"></span></div></div><div class="cart-items" id="cartItems"></div><div class="cart-empty" id="cartEmpty"><span>✳</span><h3>Your bag’s taking a little break</h3><p>Let’s find it something nice.</p><button class="primary-button" id="continueShopping">Explore the shop <span>↗</span></button></div><div class="cart-footer" id="cartFooter"><div class="subtotal"><span>Subtotal</span><strong id="subtotal">₹0</strong></div><p>Shipping and taxes are calculated at checkout.</p><button class="checkout-button" id="checkoutButton">Continue to checkout <span>↗</span></button><div class="secure-note">♡ &nbsp; A good, secure checkout</div></div></aside>
+  <div class="toast" id="toast" role="status"></div>
+<div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <section class="app-modal" role="dialog" aria-modal="true" aria-labelledby="accountTitle">
+      <button class="modal-close" data-close-modal aria-label="Close">×</button>
+      <div id="accountPane" class="modal-pane"><div class="modal-kicker">NUVORA ACCOUNT</div><h2 id="accountTitle">Welcome to Nuvora</h2><p class="modal-intro">Sign in to save your cart and keep track of orders.</p>
+        <form id="authForm" class="stack-form"><label id="authNameLabel" hidden>Your name<input id="authName" autocomplete="name" minlength="2" placeholder="Full name"></label><label>Email address<input id="authEmail" type="email" autocomplete="email" required placeholder="you@example.com"></label><label>Password<input id="authPassword" type="password" autocomplete="current-password" required minlength="8" placeholder="At least 8 characters"></label><button type="submit" id="authSubmit" class="modal-primary">Sign in <span>→</span></button><button type="button" class="auth-toggle" id="authModeToggle">Create account</button><small class="demo-note" id="authNote">Your account and orders will sync across devices on the hosted website.</small></form>
+        <div id="accountDetails" hidden><div class="account-card"><strong id="accountName"></strong><span id="accountEmail"></span><small>Orders placed: <b id="orderCount">0</b></small></div><button class="modal-secondary" id="ordersButton">View my orders</button><button class="signout-button" id="logoutButton">Sign out</button></div>
+      </div>
+      <div id="detailPane" class="modal-pane product-detail-pane" hidden><div class="modal-kicker">PRODUCT DETAILS</div><div class="detail-layout"><div class="detail-image-wrap"><img id="detailImage" src="" alt=""></div><div class="detail-copy"><span class="detail-category" id="detailCategory"></span><h2 id="detailName"></h2><div class="detail-price" id="detailPrice"></div><p id="detailDescription"></p><div class="detail-stock" id="detailStock"></div><div class="detail-actions"><button class="modal-primary" id="detailAdd">Add to cart <span>→</span></button><button class="modal-secondary" id="detailSave">♡ Save to wishlist</button></div></div></div></div>
+      <div id="checkoutPane" class="modal-pane" hidden><div class="modal-kicker">SECURE CHECKOUT</div><h2>Delivery & payment</h2><p class="modal-intro">Add a delivery address and choose how to pay.</p>
+        <form id="checkoutForm" class="checkout-form"><div class="form-grid"><label>Full name<input id="shipName" required autocomplete="name"></label><label>Phone number<input id="shipPhone" type="tel" required pattern="[0-9 +()-]{8,15}" autocomplete="tel" placeholder="10 digit mobile number"></label><label class="wide">Delivery address<input id="shipAddress" required autocomplete="street-address" placeholder="House, street, area"></label><label>City<input id="shipCity" required autocomplete="address-level2"></label><label>PIN code<input id="shipPin" required inputmode="numeric" pattern="[0-9]{6}" maxlength="6" autocomplete="postal-code"></label></div>
+        <fieldset class="payment-options"><legend>Payment method</legend><label><input type="radio" name="paymentMethod" value="UPI" checked><span><b>UPI</b><small>Demo payment confirmation</small></span><i>◉</i></label><label><input type="radio" name="paymentMethod" value="Credit / Debit Card"><span><b>Credit / Debit card</b><small>Visa, Mastercard, RuPay</small></span><i>▣</i></label><label><input type="radio" name="paymentMethod" value="Net Banking"><span><b>Net banking</b><small>All major banks</small></span><i>▤</i></label><label><input type="radio" name="paymentMethod" value="Cash on Delivery"><span><b>Cash on delivery</b><small>Pay when your order arrives</small></span><i>₹</i></label></fieldset>
+        <div class="checkout-summary"><div class="summary-title">Order summary</div><div id="checkoutSummary"></div><div class="checkout-total"><span>Total</span><strong id="checkoutTotal"></strong></div></div><p class="demo-note">Payments are simulated in this local website. No card or bank details are collected.</p><button type="submit" class="modal-primary">Place demo order <span>→</span></button></form>
+      </div>
+      <div id="ordersPane" class="modal-pane" hidden><div class="modal-kicker">YOUR ACCOUNT</div><h2>Your orders</h2><p class="modal-intro">Order details and payment status saved on this device.</p><div id="ordersList" class="orders-list"></div></div>
+      <div id="successPane" class="modal-pane success-pane" hidden><div class="success-icon">✓</div><div class="modal-kicker">ORDER PLACED</div><h2>Thanks for shopping with Nuvora!</h2><p class="modal-intro">Your demo order number is <strong id="successOrderId"></strong>.</p><div class="success-payment" id="successPayment"></div><button type="button" class="modal-primary" id="viewOrdersAfterCheckout">View my orders <span>→</span></button><button type="button" class="cancel-order-btn success-cancel" id="cancelNewOrder" hidden>Cancel this order</button><button type="button" class="modal-secondary" data-close-modal>Continue shopping</button></div>
+    </section>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+

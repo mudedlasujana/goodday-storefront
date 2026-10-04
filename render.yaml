@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: nuvora-store
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: DATABASE_URL
+        fromDatabase:
+          name: nuvora-db
+          property: connectionString
+
+databases:
+  - name: nuvora-db
+    plan: free
+    databaseName: nuvora
+    user: nuvora
